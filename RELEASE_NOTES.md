@@ -1,6 +1,6 @@
 # YouTube Player Overlay v0.1.0
 
-Initial private GitHub release.
+Initial GitHub release.
 
 - Open videos and Shorts in an adjustable overlay with YouTube's native player.
 - Choose an always-visible overlay action or thumbnail clicks.

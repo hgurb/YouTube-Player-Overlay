@@ -68,7 +68,7 @@ Visibility, regions, publisher name, contact email, and support URL: to be suppl
 
 | Version | Date | Changes | Status |
 |---|---|---|---|
-| 0.1.0 | 2026-11-23 | Initial private GitHub release with native player overlay, regular-player Shorts, appearance popup, full settings, title/date/count metadata, faster closing and optional direct-Back Home feed preservation. | Experimental GitHub release; not submitted to Chrome Web Store |
+| 0.1.0 | 2026-11-23 | Initial GitHub release with native player overlay, regular-player Shorts, appearance popup, full settings, title/date/count metadata, faster closing and optional direct-Back Home feed preservation. | Experimental GitHub release; not submitted to Chrome Web Store |
 
 ## Review Notes / Known Limitations
 

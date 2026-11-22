@@ -1,6 +1,6 @@
 # YouTube Player Overlay
 
-Private source repository: [hgurb/YouTube-Player-Overlay](https://github.com/hgurb/YouTube-Player-Overlay). Download the installable ZIP from [Releases](https://github.com/hgurb/YouTube-Player-Overlay/releases).
+Source repository: [hgurb/YouTube-Player-Overlay](https://github.com/hgurb/YouTube-Player-Overlay). Download the installable ZIP from [Releases](https://github.com/hgurb/YouTube-Player-Overlay/releases).
 
 Build the runtime-only ZIP with `python scripts/package.py`. Release notes and installation instructions are in [RELEASE_NOTES.md](RELEASE_NOTES.md).
 
