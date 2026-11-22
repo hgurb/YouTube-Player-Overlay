@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Player Overlay</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="ui.css">
+  <link rel="stylesheet" href="popup.css">
+  <script src="shared.js" defer></script>
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <header><span aria-hidden="true">▶</span><h1>Player Overlay</h1><button id="open-settings" type="button" aria-label="Open settings" title="Open settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9.5 3-.6 2.3-2 .9-2.1-.7-2 3.5 1.7 1.6v2.8L2.8 15l2 3.5 2.1-.7 2 .9.6 2.3h5l.6-2.3 2-.9 2.1.7 2-3.5-1.7-1.6v-2.8l1.7-1.6-2-3.5-2.1.7-2-.9L14.5 3z"/><circle cx="12" cy="12" r="3"/></svg></button></header>
+  <main>
+    <div class="setting"><div class="label"><label for="size">Player size</label><output id="size-value" for="size">65%</output></div><input id="size" type="range" min="25" max="95" value="65" step="1" disabled></div>
+    <div class="setting"><div class="label"><label for="darkness">Background darkness</label><output id="darkness-value" for="darkness">85%</output></div><input id="darkness" type="range" min="0" max="100" value="85" step="1" disabled></div>
+    <details open><summary>Appearance preview</summary><div id="preview" aria-hidden="true"><div class="preview-feed"><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="shade"></div><div class="player">▶<div class="progress"></div></div></div></details>
+    <p id="status" role="status" hidden></p>
+  </main>
+</body>
+</html>
